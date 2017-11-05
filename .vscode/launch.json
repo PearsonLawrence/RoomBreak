@@ -1,0 +1,114 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "RealityRoom (Debug)",
+			"request": "launch",
+			"preLaunchTask": "RealityRoom Win64 Debug Build",
+			"program": "C:\\Users\\terry\\Documents\\UnrealProjects\\RoomBreak\\Binaries\\Win64\\RealityRoom-Win64-Debug.exe",
+			"args": [
+			],
+			"cwd": "C:\\Epic Games\\UE_4.18",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Epic Games\\UE_4.18\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "RealityRoom (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "RealityRoom Win64 DebugGame Build",
+			"program": "C:\\Users\\terry\\Documents\\UnrealProjects\\RoomBreak\\Binaries\\Win64\\RealityRoom-Win64-DebugGame.exe",
+			"args": [
+			],
+			"cwd": "C:\\Epic Games\\UE_4.18",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Epic Games\\UE_4.18\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "RealityRoom (Development)",
+			"request": "launch",
+			"preLaunchTask": "RealityRoom Win64 Development Build",
+			"program": "C:\\Users\\terry\\Documents\\UnrealProjects\\RoomBreak\\Binaries\\Win64\\RealityRoom.exe",
+			"args": [
+			],
+			"cwd": "C:\\Epic Games\\UE_4.18",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Epic Games\\UE_4.18\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "RealityRoom (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "RealityRoom Win64 Shipping Build",
+			"program": "C:\\Users\\terry\\Documents\\UnrealProjects\\RoomBreak\\Binaries\\Win64\\RealityRoom-Win64-Shipping.exe",
+			"args": [
+			],
+			"cwd": "C:\\Epic Games\\UE_4.18",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Epic Games\\UE_4.18\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "RealityRoom (Test)",
+			"request": "launch",
+			"preLaunchTask": "RealityRoom Win64 Test Build",
+			"program": "C:\\Users\\terry\\Documents\\UnrealProjects\\RoomBreak\\Binaries\\Win64\\RealityRoom-Win64-Test.exe",
+			"args": [
+			],
+			"cwd": "C:\\Epic Games\\UE_4.18",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Epic Games\\UE_4.18\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "RealityRoomEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "RealityRoomEditor Win64 Debug Build",
+			"program": "C:\\Epic Games\\UE_4.18\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+			"args": [
+				"C:\\Users\\terry\\Documents\\UnrealProjects\\RoomBreak\\RealityRoom.uproject",
+				"-debug"
+			],
+			"cwd": "C:\\Epic Games\\UE_4.18",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Epic Games\\UE_4.18\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "RealityRoomEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "RealityRoomEditor Win64 DebugGame Build",
+			"program": "C:\\Epic Games\\UE_4.18\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"C:\\Users\\terry\\Documents\\UnrealProjects\\RoomBreak\\RealityRoom.uproject",
+				"-debug"
+			],
+			"cwd": "C:\\Epic Games\\UE_4.18",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Epic Games\\UE_4.18\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "RealityRoomEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "RealityRoomEditor Win64 Development Build",
+			"program": "C:\\Epic Games\\UE_4.18\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"C:\\Users\\terry\\Documents\\UnrealProjects\\RoomBreak\\RealityRoom.uproject"
+			],
+			"cwd": "C:\\Epic Games\\UE_4.18",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Epic Games\\UE_4.18\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		}
+	]
+}

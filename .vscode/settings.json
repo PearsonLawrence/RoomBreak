@@ -1,0 +1,10 @@
+{
+	"typescript.tsc.autoDetect": "off",
+	"files.exclude": {
+		"C:/Users/terry/Documents/UnrealProjects/RoomBreak/.git": true,
+		"C:/Users/terry/Documents/UnrealProjects/RoomBreak/.vscode": true,
+		"C:/Users/terry/Documents/UnrealProjects/RoomBreak/Content": true,
+		"C:/Users/terry/Documents/UnrealProjects/RoomBreak/Intermediate": true,
+		"C:/Users/terry/Documents/UnrealProjects/RoomBreak/Saved": true
+	}
+}
